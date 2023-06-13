@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T02:58:17.878Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="TaTWlfwTmVV2AZuz5GKD" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T03:07:33.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="SidMSg1KicmY5xTwb-6s" version="21.3.8" type="github">
   <diagram name="第 1 页" id="031bMvq9h8xTDyPAfoK8">
-    <mxGraphModel dx="953" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,6 +70,103 @@
         </mxCell>
         <mxCell id="ADvZMuszF9SiM-3VMvqv-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;notify&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-19" value="ajob monitor signals and notify wb and asub" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-20" value="wb add new job" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="540" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-21" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;wb&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="ADvZMuszF9SiM-3VMvqv-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="940" as="sourcePoint" />
+            <mxPoint x="470" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-27" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;awblm&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="ADvZMuszF9SiM-3VMvqv-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="940" as="sourcePoint" />
+            <mxPoint x="150" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-29" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;asub&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="ADvZMuszF9SiM-3VMvqv-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="940" as="sourcePoint" />
+            <mxPoint x="700" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-31" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-32" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="750" as="sourcePoint" />
+            <mxPoint x="670" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-33" value="&lt;font face=&quot;Times New Roman&quot;&gt;request asub register info&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-34" value="&lt;font face=&quot;Times New Roman&quot;&gt;rpc：AddNewJob&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="723" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-35" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="737" as="sourcePoint" />
+            <mxPoint x="441" y="737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-36" value="&lt;font face=&quot;Times New Roman&quot;&gt;return asub host and rpc port&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="731" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-38" value="" style="curved=1;endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="811" as="sourcePoint" />
+            <mxPoint x="670" y="751" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="791" />
+              <mxPoint x="730" y="771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-39" value="&lt;font face=&quot;Times New Roman&quot;&gt;jobs added to scheduler tree&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="780" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-40" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="812" as="sourcePoint" />
+            <mxPoint x="673" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-41" value="&lt;font face=&quot;Times New Roman&quot;&gt;response&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="785" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-42" value="exist asub info" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="754" width="180" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-43" value="not exist asub info" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="850" width="180" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-44" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="900" as="sourcePoint" />
+            <mxPoint x="670" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADvZMuszF9SiM-3VMvqv-45" value="&lt;font face=&quot;Times New Roman&quot;&gt;wb call asub process with cmd param&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="870" width="212" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
