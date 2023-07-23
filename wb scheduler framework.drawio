@@ -1,14 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T09:01:22.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="eOCcZShKMlPuan1VrsLq" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T12:49:53.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="5WA85LGTIcWk5_QpLWv6" version="21.6.5" type="github">
   <diagram name="第 1 页" id="bX1XAtfb4kWLFVjf-5i0">
-    <mxGraphModel dx="1246" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BO7hRAKgIpjlX32Vf64b-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="50" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7hRAKgIpjlX32Vf64b-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="480" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="BO7hRAKgIpjlX32Vf64b-3" value="awblm: Amedac Workbench long running manager" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BO7hRAKgIpjlX32Vf64b-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;awblm: Amedac wblm&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="40" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-4" value="timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="92" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="56" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-8" value="lsf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="66" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-9" value="sge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="126" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeColor=#CC99FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-94.99999999999977" y="103" as="sourcePoint" />
+            <mxPoint x="180" y="104.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;GetJobStatus:bjobs/qstat&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Polling time: 1S&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-13" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#CC99FF;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-93" y="111" as="sourcePoint" />
+            <mxPoint x="182" y="113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-15" value="local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-17" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeColor=#CC99FF;endFill=1;entryX=0.38;entryY=1.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gykPigOiNcFkzVXbVJ9o-15" target="gykPigOiNcFkzVXbVJ9o-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-65" y="190" as="sourcePoint" />
+            <mxPoint x="210" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gykPigOiNcFkzVXbVJ9o-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;GetJobStatus:waitpid&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Polling time：1S&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="150" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
